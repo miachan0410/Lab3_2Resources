@@ -3,4 +3,9 @@
     <color name="colorPrimary">#c8e6c9</color>
     <color name="colorPrimaryDark">#97b498</color>
     <color name="colorAccent">#fbfffc</color>
+
+    <style name="custom_button" parent="Base.Widget.AppCompat.Button">
+        <item name ="android:background">@drawable/button_background</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
 </resources>
